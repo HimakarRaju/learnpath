@@ -3,6 +3,9 @@ import { Switch, Route, Router } from "wouter";
 import Home from "../pages/home";
 import About from "../pages/about";
 import CoreJava from "../pages/corejava";
+import Oracle from "../pages/oracle";
+import UITech from "../pages/uitechnologies";
+
 
 /**
 * The router is imported in app.jsx
@@ -17,5 +20,8 @@ export default () => (
       <Route path="/" component={Home} />
       <Route path="/about" component={About} />
       <Route path="/corejava" component={CoreJava}/>
+      <Route path="/oracle" component={Oracle}/>
+      <Route path="/uitechnologies" component={UITech}/>
+      
     </Switch>
 );
