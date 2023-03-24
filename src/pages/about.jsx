@@ -18,8 +18,7 @@ export default function About() {
       </h1>
       {/* REPLACE OPENING P TAG BELOW WITH CODE FROM TODO */}
       <p>
-        Welcome to the Glitch React starter, where you can instantly create a
-        React site that's fully customizable.
+        Welcome to the Learn Path where you can instantly check various notes and codes of Programming Languages in  
       </p>
       <p>
         <em>
